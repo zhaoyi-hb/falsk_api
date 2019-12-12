@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 class MongoConn:
     def __init__(self):
-        self.url='mongodb://wikipedia-user:ysukeg0704@139.129.208.69:40029/wikipedia'
+        self.url=''
         self.client=self.get_client()
 
     def get_client(self):
